@@ -1,0 +1,34 @@
+[project]
+name = "django-toy-hashers"
+version = "0.1.0"
+description = "Educational Django password hashers implementing ROT13, MD5, and plaintext algorithms"
+readme = "README.md"
+license = "BSD-3-Clause"
+authors = [
+    { name = "Henrique Leal", email = "hm.leal@hotmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "django>=5.2",
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 5.2",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[build-system]
+requires = ["setuptools>83"]
+build-backend = "setuptools.build_meta"
